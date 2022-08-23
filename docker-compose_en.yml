@@ -22,7 +22,7 @@ services:
       - "61805:61805"
     environment:
       GLOBAL_USER: admin
-      # Username for all web services except qBittorret.
+.      # Username for all web services except qBittorret.
       GLOBAL_PASSWORD: password
       # Password for all web services except qBittorret, double as Aria2 RPC token. Recommend strong password.
       GLOBAL_PORTAL_PATH: /portal
