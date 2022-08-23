@@ -13,6 +13,13 @@ services:
     volumes:
       - ~/data:/mnt/data
       # Volume for storing data.
+    ports:
+      - "80:80"
+      - "443:443"
+      - "8080:8080"
+      - "61801:61801"
+      - "61804:61804"
+      - "61805:61805"
     environment:
       GLOBAL_USER: admin
       # Username for all web services except qBittorret.
